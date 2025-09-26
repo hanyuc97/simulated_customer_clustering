@@ -2,20 +2,30 @@ Observations for t-SNE Visualization.png (from real clustering)
 
 Plot Explanation:
 
-• Clusters (top-left): Right-hand side holds two tight groups plus a denser blob; left/center is more diffuse. This suggests at least one "premium/active" region on the right and a broader set of lower‑activity customers elsewhere.
+• Clusters (top-left): Right-hand side holds two tight groups plus a denser blob; left/center is more diffuse. This suggests at least one "premium/active" region on 
+the right and a broader set of lower‑activity customers elsewhere.
 
-• Log Monetary (top-right): Clear horizontal gradient—values rise as we move right. High spend concentrates in the far right clusters indicating a primary driver of the separation.
+• Log Monetary (top-right): Clear horizontal gradient—values rise as we move right. High spend concentrates in the far right clusters indicating a primary driver of 
+the separation.
 
-• Frequency (middle-left): Same gradient as monetary, higher order frequency on the right side. Frequency and monetary are algined, another main driver of the separation. 
+• Frequency (middle-left): Same gradient as monetary, higher order frequency on the right side. Frequency and monetary are algined, another main driver of the 
+separation. 
 
-• Recency (middle-right): Recency varies within clusters, not a clean driver here. However, it does reveals business meaning. We have more red dots on the lower left side, telling us these customers are on the edge of churn.
+• Recency (middle-right): Recency varies within clusters, not a clean driver here. However, it does reveals business meaning. We have more red dots on the lower 
+left side, telling us these customers are on the edge of churn.
 
-• Product type (bottom-left): Mixed colors throughout. Dominant product is SEC for sure with some RP, IEX. Far right, a customer with service dominanted and high monetary value.
+• Product type (bottom-left): Mixed colors throughout. Dominant product is SEC for sure with some RP, IEX. Far right, a customer with service dominanted and high 
+monetary value.
 
-• Days since First Purchase (bottom-right): Although this feature not used in clustering, it shows we have pretty solid customer base. Meanwhile, newer customer on the left side.
+• Days since First Purchase (bottom-right): Although this feature not used in clustering, it shows we have pretty solid customer base. Meanwhile, newer customer on 
+the left side.
 
 Business insights:
  
-The cluster structure shows a lifecycle/value axis that newer customers on the left with low value and low frequency and older customers on the right as opposite. Although we have a large group in cluster 0, inside the cluster, if we look at recency plot and days since first purchase plot, we observe that top left are more likely new customers or near new customers, and bottom left are mixed with mid age and old customers. For new customers that are turning/turned to mid age, we want them to move right, having more monetary value instead of dropping to bottom left, at the risk of being churned. For these at risk, we should try to reconnect, check on their status, do compagins,keep them if possible.
+The cluster structure shows a lifecycle/value axis that newer customers on the left with low value and low frequency and older customers on the right as opposite. 
+Although we have a large group in cluster 0, inside the cluster, if we look at recency plot and days since first purchase plot, we observe that top left are more 
+likely new customers or near new customers, and bottom left are mixed with mid age and old customers. For new customers that are turning/turned to mid age, we want 
+them to move right, having more monetary value instead of dropping to bottom left, at the risk of being churned. For these at risk, we should try to reconnect, 
+check on their status, do compagins,keep them if possible.
 
 
