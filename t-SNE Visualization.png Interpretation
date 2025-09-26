@@ -15,7 +15,7 @@ Plot Explanation:
 • Days since First Purchase (bottom-right): Although this feature not used in clustering, it shows we have pretty solid customer base. Meanwhile, newer customer on the left side.
 
 Business insights:
-
+ 
 The cluster structure shows a lifecycle/value axis that newer customers on the left with low value and low frequency and older customers on the right as opposite. Although we have a large group in cluster 0, inside the cluster, if we look at recency plot and days since first purchase plot, we observe that top left are more likely new customers or near new customers, and bottom left are mixed with mid age and old customers. For new customers that are turning/turned to mid age, we want them to move right, having more monetary value instead of dropping to bottom left, at the risk of being churned. For these at risk, we should try to reconnect, check on their status, do compagins,keep them if possible.
 
 
